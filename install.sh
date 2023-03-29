@@ -55,7 +55,7 @@ if [ $choice == 1 ] || [ $choice == 2 ]; then
 	    fi
 
         echo "[✔] Installing ...\n";
-        sudo git clone https://github.com/Z4nzu/hackingtool.git "$INSTALL_DIR";
+        sudo git clone https://github.com/Raphael356/hackingtool.git "$INSTALL_DIR";
         echo "#!/bin/bash
         python3 $INSTALL_DIR/hackingtool.py" '${1+"$@"}' > hackingtool;
         sudo chmod +x hackingtool;
