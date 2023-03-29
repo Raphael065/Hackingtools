@@ -1,10 +1,6 @@
-echo "███████╗██╗  ██╗███╗   ██╗███████╗██╗   ██╗    ";
-echo "╚══███╔╝██║  ██║████╗  ██║╚══███╔╝██║   ██║    ";
-echo "  ███╔╝ ███████║██╔██╗ ██║  ███╔╝ ██║   ██║    ";
-echo " ███╔╝  ╚════██║██║╚██╗██║ ███╔╝  ██║   ██║    ";
-echo "███████╗     ██║██║ ╚████║███████╗╚██████╔╝    ";
-echo "╚══════╝     ╚═╝╚═╝  ╚═══╝╚══════╝ ╚═════╝     ";
-echo "                                               ";
+echo "RAPHAEL";
+echo "HACKING";
+echo "TOOL";
 
 clear
 
@@ -36,7 +32,7 @@ cd hackingtool
 
 clear
 
-git clone https://github.com/Z4nzu/hackingtool.git
+git clone https://github.com/Raphael356/hackingtool.git
 
 clear
 

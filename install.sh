@@ -18,15 +18,15 @@ purpal='\033[35m'
 
 echo -e "${ORANGE} "
 echo ""
-echo "Test";
+echo "Hacking tool Created by Raphael, ONLY FOR HOME SERVICE!!!";
 
-echo -e "${BLUE}                                    https://github.com/Z4nzu/hackingtool ${NC}"
+echo -e "${BLUE}                                    Raphael= KING ${NC}"
 echo -e "${RED}                                     [!] This Tool Must Run As ROOT [!]${NC}\n"
 echo -e ${CYAN}                "Select Best Option : \n"
 echo -e "${WHITE}              [1] Kali Linux / Parrot-Os (apt)"
 echo -e "${WHITE}              [2] Arch Linux (pacman)" # added arch linux support because of feature request #231
 echo -e "${WHITE}              [0] Exit "
-echo -n -e "Z4nzu >> "
+echo -n -e "Raphael >> "
 read choice
 INSTALL_DIR="/usr/share/doc/hackingtool"
 BIN_DIR="/usr/bin/"
@@ -88,7 +88,7 @@ if [ $choice == 1 ] || [ $choice == 2 ]; then
         exit
     fi
 elif [ $choice == 0 ] && [ $choice != 1 ] && [ $choice != 2 ]; then # fixed the "./test.sh: line 107: [: asd: integer expression expected" when entering any invalid input containing letters
-    echo -e $RED "[✘] THank Y0u !! [✘] "
+    echo -e $RED "[✘] THank You !! [✘] "
     exit
 else
     echo -e $RED "[!] Select Valid Option [!]"
